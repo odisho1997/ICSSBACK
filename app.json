@@ -1,31 +1,31 @@
 {
   "name": "ICSS - USERBOT",
   "description": "Arabic Userbot for you by - @rruuurr ",
-  "logo": "https://telegra.ph/file/b204d0eade42f0acab4fe.jpg",
+  "logo": "https://telegra.ph/file/ac1a7db2e66ab5b16da5c.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ANL0KE/ICSS-USERBOT/",
+  "repository": "https://github.com/odisho1997/ICSS-USERBOT/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
       "description": "ادخل اسمك هنا",
-      "value": ""
+      "value": "† - M𝙴𝙼𝙸𝙰𝙽 𐇰."
     },
     "APP_ID": {
       "description": "اب ايدي",
-      "value": ""
+      "value": "6789410"
     },
     "API_HASH": {
       "description": "ايبي هاش",
-      "value": ""
+      "value": "996af9565de608e1b9d906eaeba94fad"
     },
     "STRING_SESSION": {
       "description": "كود التيرمكس",
-      "value": ""
+      "value": "1AZWarzMBu3Nx1BDQclX_w0aQqa7cBHMBMWl0_O3vEHyCz5JFt1FCjTNOdmFVYV05N4UAyOm_CnMV3RShuepwkUOLOy8qHWnKiPjxfH_ZpsCbKpQYO1rmOcsfI4UMncBdapvCyoyTbMuWEeFzk-nj99yX9j4QJR_yVTAZGXsY2OJhaGfzAAzi2s0ZnuUmItSBwqJBFFDgoqnv-cSD8y6VJv_3nSwqoJpsax13FY62saDaWm6B7oYBn6WiA3aDtCj6UVtN5mFxY53fYN4DF-7QMkTN3KNGPpRYWdcejvxJaX9gYOQsC4cUzXdPODJ21YkmXb1mIfq3DvI_WWvpsaNPI8BHOzT1C3w="
     },
     "ENV": {
       "description": "لتغير بيها شي",
@@ -33,30 +33,30 @@
     },
     "TG_BOT_USERNAME": {
       "description": "معرف البوت",
-      "value": ""
+      "value": "GSEDGEHEGBOT"
     },
     "TG_BOT_TOKEN": {
       "description": " توكن البوت - يجب وضع البوت انلاين مود",
-      "value": ""
+      "value": "1779390741:AAH1SZLp4TS5tyIsvZIYqEIFMB23Az6V0BQ"
     },
     "PMPERMIT_PIC": {
       "description": "صوره ",
-      "value": "",
+      "value": "https://telegra.ph/file/ac1a7db2e66ab5b16da5c.jpg",
       "required": false
     },
     "COMMAND_HAND_LER": {
       "description": "اتركها كما هيه",
-      "value": ".",
+      "value": "",
       "required": false
     },
     "MAX_FLOOD_IN_PMS": {
       "description": "عدد الرسائل ",
-      "value": "5",
+      "value": "7",
       "required": false
     },
     "PRIVATE_GROUP_ID": {
       "description": "الكروب ",
-      "value": "",
+      "value": "-1001558000970",
       "required": false
     },
     "CUSTOM_PMPERMIT_TEXT": {
@@ -66,18 +66,18 @@
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "ايدي الكروب ",
-      "value": "",
+      "value": "-1001558000970",
       "required": false
     },
     "OWNER_ID": {
       "description": "ايدي حسابك",
-      "value": "",
+      "value": "732221062",
       "required": false
     },
 
     "HEROKU_API_KEY": {
       "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
-      "value": "",
+      "value": "6a70410a-97f4-4d44-8392-3c86b0708c03",
       "required": false
     },
     "HEROKU_APP_NAME": {
@@ -92,7 +92,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس",
-      "value": "kimo ",
+      "value": "ody ",
       "required": false
     }
   },
