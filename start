@@ -4,9 +4,9 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "kimo" ]]
+    if [[ $UPSTREAM_REPO == "ody" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL29kaXNobzE5OTcvSUNTUy1VU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL29kaXNobzE5OTcvSUNTUy1VU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
@@ -24,14 +24,14 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "kimo" ]]
+    if [[ $UPSTREAM_REPO == "ody" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QuZ2l0" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL29kaXNobzE5OTcvSUNTUy1VU0VSQk9ULmdpdA==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QuZ2l0" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL29kaXNobzE5OTcvSUNTUy1VU0VSQk9ULmdpdA==" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -45,7 +45,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/ANL0KE/ICSSBACK"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/odisho1997/ICSSBACK"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
